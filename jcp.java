@@ -9,4 +9,15 @@ public class jcp {
 		    a=b;
 		    b=t;
 	    System.out.println("After swap..."+a+"  "+b);
+
+		//Reverse Number using stringbuilder class
+	      StringBuilder sbl=new StringBuilder();
+	      sbl.append(123456789);
+	      StringBuilder rev =sbl.reverse();
+	      System.out.println("Reverse String is:"+rev);
+	      
+// Reverse String using stringbuffer class
+	      String str= "anurag";
+	      StringBuffer sb=new StringBuffer(str);
+	      System.out.println(sb.reverse());
 		}}
