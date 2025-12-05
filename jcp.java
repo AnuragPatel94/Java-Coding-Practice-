@@ -3,7 +3,7 @@ public class jcp {
         public static void main(String[] args) {
 		
 //Swap 2 number using third variable
-		int a=100, b=200;
+		int a=10, b=20;
 		System.out.println("Before swap..."+a+"  "+b);
 		int t=a;
 		    a=b;
@@ -17,7 +17,7 @@ public class jcp {
 	      System.out.println("Reverse String is:"+rev);
 	      
 // Reverse String using stringbuffer class
-	      String str= "anurag";
+	      String str= "selenium";
 	      StringBuffer sb=new StringBuffer(str);
 	      System.out.println(sb.reverse());
 		}}
